@@ -12,12 +12,15 @@ body {
 body {
   height: 400vh;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .page {
   height: 100vh;
   background-size: 100% 100vh;
-  position: relative;
+  font-size: calc(10px + 2vmin);
+  position: relative;  
+  overflow: hidden;
 }
 
 .page:nth-child(2n + 1) {
@@ -38,4 +41,19 @@ body {
     transparent 50%,
     transparent 100%
   );
+}
+
+.wrapper{
+  height: 100vh;
+  font-size: calc(10px + 2vmin);
+  position: relative;  
+  overflow: hidden;
+}
+
+.wrapper-black {
+  background-color: #262626;
+}
+
+.wrapper-yellow {
+  background-color: #FFCA58;
 }
